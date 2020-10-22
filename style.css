@@ -1,0 +1,87 @@
+html{
+    height: 100%;
+}
+    
+    body{
+    background: #2f3035;
+    /*this is how you add a background image to webpage..including the html tag above*/
+    background-image: url(images/background-adare-restaurant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*the container is used to align the whole page to the center */
+.container{
+    margin-left: auto; /*margin pushes whole box from outside */
+    margin-right: auto;
+    width: 1024px;
+}
+
+header{
+    /*background-color: blue; will be removed so the box color isnt there anymore and its just the text*/
+    height: 118px;
+    text-align: center; /*this aligns the logo to the center */
+
+}
+
+nav {
+    /*in order to make it transparent grey you open the color box and move the first bar (first bar tells you how dark/see through the color will be*/
+    background-color: rgba(0, 0, 0, 0.301);
+    /*height: 40px; */
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    
+}
+
+main {
+    /*background-color: orange;
+    height: 400px; will be removed so the box color isnt there anymore and its just the text*/
+    height: 400px;
+    text-align: center;
+    padding-top: 80px; /*padding adds empty space to move whats inside the box*/
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.74);
+    /*height:100px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+h1{
+    font-size: 84px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 18px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    /*text-decoration: none will take off the underline from the link*/
+}
+
+/*compound selector means to specify tags to make them do a certain thing*/
+/*if theres an a tag inside a nav do the following*/
+nav a{
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer p{
+    font-size: 10px;
+    text-align: center;
+    color:rgb(180, 186, 190);
+}
